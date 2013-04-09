@@ -4,7 +4,9 @@ from django.conf.urls import patterns, include, url
 # from django.contrib import admin
 # admin.autodiscover()
 
-urlpatterns = patterns('',
+urlpatterns = patterns(
+    '',
+    url(r'^', include('website.urls')),
     # Examples:
     # url(r'^$', 'canvas.views.home', name='home'),
     # url(r'^canvas/', include('canvas.foo.urls')),

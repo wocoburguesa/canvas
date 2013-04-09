@@ -1,0 +1,68 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url('../img/background_plain.png');
+}
+
+.form-signin {
+    max-width: 400px;
+    padding: 80px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: transparent;
+}
+
+.form-signin p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #8B3231;
+}
+
+.form-signin-heading{
+    width:100%;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+
+.btn-landing{
+    float: right;
+    background-image: linear-gradient(to bottom, #D0000F, #8B3231);
+    background-image: -moz-linear-gradient(top, #D0000F, #8B3231);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D0000F), to(#8B3231));
+    background-image: -webkit-linear-gradient(top, #D0000F, #8B3231);
+    background-image: -o-linear-gradient(top, #D0000F, #8B3231);
+    background-repeat: repeat-x;
+    color: #F8EAD2;
+    text-shadow: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff#D0000F', endColorstr='#ff#8B3231', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-landing:hover,
+.btn-landing:focus,
+.btn-landing:active,
+.btn-landing.active,
+.btn-landing.disabled,
+.btn-landing[disabled] {
+  color: #ffffff;
+  background-color: #8B3231;
+  *background-color: #D0000F;
+}
+
+.btn-landing:active,
+.btn-landing.active {
+  background-color: #ffffff \9;
+}
+
+.btn-landing.active,
+  color: rgba(255, 255, 255, 0.75);
+}
