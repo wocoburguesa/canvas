@@ -28,10 +28,11 @@
   <body>
 
     <div class="container">
-      <form class="form-signin">
+      <form class="form-signin" action="{% url "landing" %}" method="post">
+	{% csrf_token %}
         <img class="form-signin-heading" src="{{ STATIC_URL }}img/logo.png"></img>
 	<p>Canvas te ofrece un espacio para compartir tu creatividad. No sólo plasmando tus diseños en ropa para ti, sino abriéndolos a nuestra comunidad de usuarios. "¿Y qué gano yo con eso?", te preguntarás. ¡Déjanos tu e-mail y sé uno de los primeros en descubrirlo! (tip: no sólo es la fama (aunque también hay eso)).</p>
-        <input type="text" class="input-block-level" placeholder="Tu e-mail aquí">
+	{{ form.email }}
         <button class="btn btn-large btn-landing" type="submit">Enviar!</button>
       </form>
 
