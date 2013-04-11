@@ -3,7 +3,7 @@
 
 from os.path import dirname, join, realpath
 
-ROOT_DIR = realpath(join(dirname(__file__), '..'))
+ROOT_DIR = realpath(join(dirname(__file__), ''))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -18,9 +18,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'canvas',
-        'USER': 'wocoburguesa',
+        'USER': 'canvas',
         'PASSWORD': 'canvas',
-        'HOST': '',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
@@ -110,7 +110,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-#WSGI_APPLICATION = 'canvas.wsgi.application'
+WSGI_APPLICATION = 'canvas.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
