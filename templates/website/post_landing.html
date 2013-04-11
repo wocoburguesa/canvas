@@ -1,0 +1,10 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<div class="thank-you">
+  <p class="title">¡Gracias por tu interés!</p>
+  <div class="form-signin">
+    <p>Serás uno de los primeros en participar del experimento Canvas. Mantente atento a tu bandeja de entrada y ¡sigue creando!</p>
+    <a href="{% url 'landing' %}"><button class="btn btn-back">Regresar</button></a>
+  </div>
+</div>
+{% endblock %}

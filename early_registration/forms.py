@@ -4,6 +4,7 @@ from django.forms import ModelForm, EmailField, TextInput
 from django.utils.translation import ugettext_lazy as _
 
 from early_registration.models import EarlyAdopter
+from early_registration import strings, validators
 
 class EarlyAdopterForm(ModelForm):
 
@@ -15,7 +16,8 @@ class EarlyAdopterForm(ModelForm):
                 'placeholder': 'Tu e-mail aquí'
                 }
             ),
-        label=_("E-mail")
+        label=_("E-mail"),
+        validators=[validators.validate_registered_email]
         )
 
     class Meta:
