@@ -1,5 +1,5 @@
 body {
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 40px;
     background: url('../img/background_plain.png');
 }
@@ -15,28 +15,43 @@ body {
 
 .form-signin,
 .thank-you .form-signin{
-    max-width: 400px;
-    padding: 80px 29px 29px;
+    max-width: 500px;
+    padding: 40px 29px 29px;
     margin: 0 auto 20px;
     background-color: transparent;
 }
 
-.form-signin p{
+.landing-description{
     margin-top: 10px;
     margin-bottom: 15px;
+//    width: 540px;
     color: #8B3231;
+    font-family: "Trebuchet MS";
+    position: relative;
+//    left: -65px;
 }
 
 .form-signin-heading{
-    width:100%;
+    width: 100%;
 }
 
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
     margin-bottom: 10px;
 }
+
+.gay{
+    display: block;
+    width: 100%;
+}
+
+.form-signin .input-append{
+    left: 50px;
+}
+
 .form-signin input[type="text"],
 .form-signin input[type="password"] {
+    width:403px;
     font-size: 16px;
     height: auto;
     padding: 7px 9px;
@@ -45,6 +60,10 @@ body {
 
 .btn-landing,
 .thank-you .btn-back{
+    font-size: 16px;
+    height: auto;
+    padding: 7px 9px;
+    margin-bottom: 5px;
     float: right;
     background-image: linear-gradient(to bottom, #D0000F, #8B3231);
     background-image: -moz-linear-gradient(top, #D0000F, #8B3231);
@@ -53,6 +72,7 @@ body {
     background-image: -o-linear-gradient(top, #D0000F, #8B3231);
     background-repeat: repeat-x;
     color: #F8EAD2;
+    font-family: "Trebuchet MS";
     text-shadow: none;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff#D0000F', endColorstr='#ff#8B3231', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -110,7 +130,20 @@ body {
 }
 
 .separator{
-    height: 50px;
+    height: 10px;
     padding-bottom: 2%;
     border-bottom: 1px solid #F2DDDD;
  }
+
+.landing-video {
+    position: relative;
+    left: -15px;
+}
+
+.form-signin h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: right;
+    color: #8B3131;
+    font-family: "Impact";
+}

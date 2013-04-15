@@ -6,16 +6,23 @@
     {% csrf_token %}
 
     <img class="form-signin-heading" src="{{ STATIC_URL }}img/logo.png"></img>
-    <p>Canvas te ofrece un espacio para compartir tu creatividad. No sólo plasmando tus diseños en ropa para ti, sino abriéndolos a nuestra comunidad de usuarios. "¿Y qué gano yo con eso?", te preguntarás. ¡Déjanos tu e-mail y sé uno de los primeros en descubrirlo! (tip: no sólo es la fama (aunque también hay eso)).</p>
+    <h2>Viste tu lienzo</h2>
+    <iframe class="landing-video" width="540" height="310" src="http://www.wideo.co/embed/137761365387697363?height=282&width=500" frameborder="0" allowfullscreen ></iframe>
+    <div class="landing-description"><p>Canvas te ofrece un espacio para compartir tu creatividad. No sólo plasmando tus diseños en ropa para ti, sino abriéndolos a nuestra comunidad de usuarios. "¿Y qué gano yo con eso?", te preguntarás. ¡Déjanos tu e-mail y sé uno de los primeros en descubrirlo! (tip: no sólo es la fama (aunque también hay eso)).</p></div>
     {% if form_error %}
     <p class="form-error">{{ form_error }}</p>
     {% endif %}
-    {{ form.email }}
-    <button class="btn btn-large btn-landing" type="submit">¡Enviar!</button>
+    <div class="gay">
+      <div class="input-append">
+	{{ form.email }}
+	<!--       <button class="btn btn-large btn-landing" type="submit">¡Enviar!</button>  -->
+	<button class="btn btn-landing" type="submit">¡Enviar!</button>
+      </div>
+    </div>
     <div class="separator"></div>
     <div class="landing-footer">
     <div class="fb-like" data-href="http://facebook.com/canvas.pe" data-send="false" data-width="450" data-show-faces="true" data-font="arial"></div>
-<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a> -->
+    <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a> -->
     </div>
   </form>
 
