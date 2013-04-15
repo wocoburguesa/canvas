@@ -9,6 +9,8 @@ body {
     font-size: 0.9em;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 8px;
+    padding-top: 2%;
+    border-top: 1px solid #F2DDDD;
 }
 
 .form-signin,
@@ -37,8 +39,8 @@ body {
 .form-signin input[type="password"] {
     font-size: 16px;
     height: auto;
-    margin-bottom: 15px;
     padding: 7px 9px;
+    margin-bottom: 5px;
 }
 
 .btn-landing,
@@ -63,9 +65,9 @@ body {
 .btn-landing.disabled,
 .btn-landing[disabled],
 .thank-you .btn-back{
-  color: #ffffff;
-  background-color: #8B3231;
-  *background-color: #D0000F;
+    color: #ffffff;
+    background-color: #8B3231;
+    *background-color: #D0000F;
 }
 
 .btn-landing:active,
@@ -101,3 +103,14 @@ body {
     float: left;
     margin: 10px 0px 0px 0px;
 }
+
+.landing-footer {
+    padding-top: 2%;
+    color: #8B3231;
+}
+
+.separator{
+    height: 50px;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #F2DDDD;
+ }
