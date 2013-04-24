@@ -2,6 +2,7 @@ body {
     padding-top: 0px;
     padding-bottom: 40px;
     background: url('../img/background_plain.png');
+    font-family: "Josefin Slab", serif;
 }
 
 .form-signin .form-error {
@@ -26,7 +27,7 @@ body {
     margin-bottom: 15px;
 //    width: 540px;
     color: #8B3231;
-    font-family: "Trebuchet MS";
+    font-family: "Josefin Slab", serif;
     position: relative;
 //    left: -65px;
 }
@@ -145,5 +146,5 @@ body {
     margin-bottom: 20px;
     text-align: right;
     color: #8B3131;
-    font-family: "Impact";
+    font-family: "Josefin Slab", serif;
 }
