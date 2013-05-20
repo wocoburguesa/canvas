@@ -113,7 +113,7 @@ width: 100%;
 
 /* header-description */
 .header-description {
-  margin: 130px 0 80px;
+  margin: 10px 0 80px;
   text-align: center;
 }
 .header-description h2 {  
@@ -127,8 +127,8 @@ width: 100%;
 /* header button - call to action button */
 .header-btn {
   color: #fff;
-  margin-top: 130px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 0px;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 24px;

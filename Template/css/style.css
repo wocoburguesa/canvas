@@ -11,7 +11,7 @@ body {
   background: #efefef url(../images/background.jpg) repeat
 }
 
-a,a:visited {text-decoration:none;color:#ccc}
+a,a:visited {text-decoration:none;color:rgb(255, 255, 255);}
 a:hover {text-decoration:underline;}
 a:hover, a:active, a:focus, object, embed, input::-moz-focus-inner {
     outline:0
