@@ -12,7 +12,7 @@ class EarlyAdopterForm(ModelForm):
         widget=TextInput(
             attrs={
                 'type': 'text',
-                'class': 'input-block-level',
+                'class': 'span2',
                 'placeholder': 'Tu e-mail aquí'
                 }
             ),
