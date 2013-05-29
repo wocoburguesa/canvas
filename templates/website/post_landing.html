@@ -1,10 +1,25 @@
 {% extends "layouts/base.html" %}
 {% block content %}
-<div class="thank-you">
-  <p class="title">¡Gracias por tu interés!</p>
-  <div class="form-signin">
-    <p>Serás uno de los primeros en participar del experimento Canvas. Mantente atento a tu bandeja de entrada y ¡sigue creando!</p>
-    <a href="{% url 'landing' %}"><button class="btn btn-back">Regresar</button></a>
+<header id="header" class="site-header">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="header-description">
+        <h1>Gracias por tu interés!<h1>
+            <p>Pronto te enviaremos noticias sobre el experimento Canvas.</p>
+        </div>
+      </div><!-- /span12 -->
+    </div><!-- /row-fluid -->
+  </div><!-- /container -->
+</header>
+
+<section id="subscribe" class="subscribe">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12">
+        <a href="{% url "landing" %}"><button class="btn-custom btn-back">Regresar</button></a>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 {% endblock %}
