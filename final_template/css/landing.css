@@ -1,0 +1,45 @@
+.header-description {
+    margin: 20px 0px 20px 0px;
+}
+
+.carousel-caption {
+    margin: 16em auto;
+    text-align: left;
+
+    background-color: rgba(0, 0, 0, 0);
+    width: 941px;
+}
+
+.carousel-caption h1{
+    color: white;
+}
+
+.carousel-caption .lead{
+    width: 70%;
+}
+
+.carousel-inner img {
+    width: 1053px;
+    height: 432px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.carousel-inner iframe {
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.carousel-inner .item {
+    padding: 5px 0px 5px 0px;
+}
+
+.feature-title > i {
+    vertical-align: bottom;
+}
+
+.feature-title > h4 {
+    font-size: 26px;
+}
+
+.btn-back {
+    border-radius: 5px;
+}
