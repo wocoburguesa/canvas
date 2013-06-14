@@ -1,149 +1,45 @@
-body {
-    padding-top: 0px;
-    padding-bottom: 40px;
-    background: url('../img/background_plain.png');
+.header-description {
+    margin: 20px 0px 20px 0px;
 }
 
-.form-signin .form-error {
-    background-color: transparent;
-    font-size: 0.9em;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 8px;
-    padding-top: 2%;
-    border-top: 1px solid #F2DDDD;
+.carousel-caption {
+    margin: 16em auto;
+    text-align: left;
+
+    background-color: rgba(0, 0, 0, 0);
+    width: 941px;
 }
 
-.form-signin,
-.thank-you .form-signin{
-    max-width: 500px;
-    padding: 40px 29px 29px;
-    margin: 0 auto 20px;
-    background-color: transparent;
+.carousel-caption h1{
+    color: white;
 }
 
-.landing-description{
-    margin-top: 10px;
-    margin-bottom: 15px;
-//    width: 540px;
-    color: #8B3231;
-//    font-family: "Josefin Slab", serif;
-    position: relative;
-//    left: -65px;
+.carousel-caption .lead{
+    width: 70%;
 }
 
-.form-signin-heading{
-    width: 100%;
+.carousel-inner img {
+    width: 1053px;
+    height: 432px;
+    box-shadow: 0px 0px 10px #000000;
 }
 
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
-    margin-bottom: 10px;
+.carousel-inner iframe {
+    box-shadow: 0px 0px 10px #000000;
 }
 
-.gay{
-    display: block;
-    width: 100%;
+.carousel-inner .item {
+    padding: 5px 0px 5px 0px;
 }
 
-.form-signin .input-append{
-    left: 50px;
+.feature-title > i {
+    vertical-align: bottom;
 }
 
-.form-signin input[type="text"],
-.form-signin input[type="password"] {
-    width:403px;
-    font-size: 16px;
-    height: auto;
-    padding: 7px 9px;
-    margin-bottom: 5px;
+.feature-title > h4 {
+    font-size: 26px;
 }
 
-.btn-landing,
-.thank-you .btn-back{
-    font-size: 16px;
-    height: auto;
-    padding: 7px 9px;
-    margin-bottom: 5px;
-    float: right;
-    background-image: linear-gradient(to bottom, #D0000F, #8B3231);
-    background-image: -moz-linear-gradient(top, #D0000F, #8B3231);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D0000F), to(#8B3231));
-    background-image: -webkit-linear-gradient(top, #D0000F, #8B3231);
-    background-image: -o-linear-gradient(top, #D0000F, #8B3231);
-    background-repeat: repeat-x;
-    color: #F8EAD2;
-    font-family: "Trebuchet MS";
-    text-shadow: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff#D0000F', endColorstr='#ff#8B3231', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-
-.btn-landing:hover,
-.btn-landing:focus,
-.btn-landing:active,
-.btn-landing.active,
-.btn-landing.disabled,
-.btn-landing[disabled],
-.thank-you .btn-back{
-    color: #ffffff;
-    background-color: #8B3231;
-    *background-color: #D0000F;
-}
-
-.btn-landing:active,
-.btn-landing.active,
-.thank-you .btn-back{
-  background-color: #ffffff \9;
-}
-
-.thank-you{
-    float: center;
-    padding: 80px 29px 29px;
-    font-size: 10em;
-    text-align: center;
-    color: #8B3231;
-}
-
-.thank-you .form-signin{
-    max-width: 400px;
-    padding: 40px 29px 10px;
-    margin: 0 auto 10px;
-    background-color: transparent;
-}
-
-.thank-you .title{
-    font-size: 40%;
-}
-
-.thank-you p{
-    font-size: 15%
-}
-
-.thank-you .btn-back{
-    float: left;
-    margin: 10px 0px 0px 0px;
-}
-
-.landing-footer {
-    padding-top: 2%;
-    color: #8B3231;
-}
-
-.separator{
-    height: 10px;
-    padding-bottom: 2%;
-    border-bottom: 1px solid #F2DDDD;
- }
-
-.landing-video {
-    position: relative;
-    left: -15px;
-}
-
-.form-signin h2{
-    margin-top: 0px;
-    margin-bottom: 20px;
-    text-align: right;
-    color: #8B3131;
-    font-family: "Josefin Slab", serif;
+.btn-back {
+    border-radius: 5px;
 }
