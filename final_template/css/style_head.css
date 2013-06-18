@@ -8,7 +8,7 @@
 body {
   font: 13px/1.5 Arial, 'Liberation Sans', FreeSans, sans-serif;
   color:#7d7d7d;
-  background: #F5EFD7 url("../img/textura_tabla.gif") repeat
+  background: url('../img/textura_tabla.png');
 }
 
 a,a:visited {text-decoration:none;}

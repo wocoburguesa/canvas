@@ -2,7 +2,6 @@
 
 body {
   font-family: lato;
-  font-size: 15px;
   font-weight: 300;
   color: rgb(124, 124, 124);
 }
@@ -446,7 +445,7 @@ ul.social li:nth-child(6):before{
 
 .btn-custom {
   display: inline-block;
-  padding: 15px 32px 13px;
+  padding: 15px 20px 13px;
   margin-bottom: 0;
   font-size: 14px;
   line-height: 20px;
@@ -472,6 +471,42 @@ ul.social li:nth-child(6):before{
 }
 .btn-custom:hover {
   background: transparent;
+}
+
+
+.btn-custom1 {
+  display: inline-block;
+  padding: 7px 15px 7px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgb(219, 82, 47);
+  background: rgb(219, 82, 47);
+  
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.btn-custom1:hover {
+  background: transparent;
+  color: #000;
 }
 
 
